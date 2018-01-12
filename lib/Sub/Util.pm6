@@ -91,11 +91,11 @@ By default C<Sub::Util> does not export any subroutines.
 Returns the name of the given Callable, if it has one. Normal named subs will
 give a fully-qualified name consisting of the package and the localname
 separated by C<::>.  Anonymous Callables will give C<__ANON__> as the localname.
-If a name has been set using L</set_subname>, this name will be returned instead.
+If a name has been set using C<set_subname>, this name will be returned instead.
 
 I<Users of Sub::Name beware>: This function is B<not> the same as
 C<Sub::Name::subname>; it returns the existing name of the sub rather than
-changing it. To set or change a name, see instead L</set_subname>.
+changing it. To set or change a name, see instead C<set_subname>.
 
 =head2 set_subname
 
