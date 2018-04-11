@@ -1,6 +1,6 @@
 use v6.c;
 
-class Sub::Util:ver<0.0.1> {
+class Sub::Util:ver<0.0.2> {
 
     our sub subname(&code) is export(:SUPPORTED) {
         if &code.name -> $name {
