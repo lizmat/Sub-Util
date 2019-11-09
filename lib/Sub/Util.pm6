@@ -1,6 +1,6 @@
 use v6.c;
 
-module Sub::Util:ver<0.0.3>:auth<cpan:ELIZABETH> {
+module Sub::Util:ver<0.0.4>:auth<cpan:ELIZABETH> {
 
     our sub subname(&code) is export(:SUPPORTED) {
         if &code.name -> $name {
@@ -29,10 +29,10 @@ module Sub::Util:ver<0.0.3>:auth<cpan:ELIZABETH> {
         &callable
     }
 
-    # the following functions are not functional on Perl 6
+    # the following functions are not functional on Raku
     my sub die-prototype($what) is hidden-from-backtrace {
         die qq:to/TEXT/;
-        '$what' is not supported on Rakudo Perl 6, because Rakudo Perl 6
+        '$what' is not supported on Raku, because Raku
         does not have the concept of prototypes.
         TEXT
     }
@@ -69,7 +69,7 @@ sub EXPORT(*@args) {
 
 =head1 NAME
 
-Sub::Util - Port of Perl 5's Sub::Util 1.49
+Sub::Util - Port of Perl's Sub::Util 1.49
 
 =head1 SYNOPSIS
 
@@ -120,8 +120,8 @@ convention of this module.
 
 =head1 FUNCTIONS NOT PORTED
 
-It did not make sense to port the following functions to Perl 6, as they pertain
-to specific Pumpkin Perl 5 internals.
+It did not make sense to port the following functions to Raku, as they pertain
+to specific Pumpkin Perl internals.
 
   prototype set_prototype
 
@@ -143,11 +143,11 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
-Re-imagined from the Perl 5 version as part of the CPAN Butterfly Plan. Perl 5
+Re-imagined from the Perl version as part of the CPAN Butterfly Plan. Perl
 version originally developed by Paul Evans.
 
 =end pod

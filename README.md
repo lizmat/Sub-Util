@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/Sub-Util.svg?branch=master)](https://travis-ci.org/lizmat/Sub-Util)
-
 NAME
 ====
 
-Sub::Util - Port of Perl 5's Sub::Util 1.49
+Sub::Util - Port of Perl's Sub::Util 1.49
 
 SYNOPSIS
 ========
@@ -42,7 +40,7 @@ This function was copied from `Sub::Name::subname` and renamed to the naming con
 FUNCTIONS NOT PORTED
 ====================
 
-It did not make sense to port the following functions to Perl 6, as they pertain to specific Pumpkin Perl 5 internals.
+It did not make sense to port the following functions to Raku, as they pertain to specific Pumpkin Perl internals.
 
     prototype set_prototype
 
@@ -63,9 +61,9 @@ Source can be located at: https://github.com/lizmat/Sub-Util . Comments and Pull
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
-Re-imagined from the Perl 5 version as part of the CPAN Butterfly Plan. Perl 5 version originally developed by Paul Evans.
+Re-imagined from the Perl version as part of the CPAN Butterfly Plan. Perl version originally developed by Paul Evans.
 
