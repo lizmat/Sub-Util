@@ -3,11 +3,11 @@ Revision history for Sub::Util
 {{$NEXT}}
 
 0.0.4  2019-11-09T23:04:36+01:00
-    - changed Perl 6 to Raku and Perl 5 to Perl
+    - Changed Perl 6 to Raku and Perl 5 to Perl
 
 0.0.3  2018-04-25T19:34:27+02:00
     - Sub::Util must be a module, not a class
-    - also add authority to the version information
+    - Also add authority to the version information
 
 0.0.2  2018-04-11T22:56:36+02:00
     - Follow App:Mi6's default Changes format
