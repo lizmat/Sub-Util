@@ -1,6 +1,6 @@
-use v6.c;
+use v6.*;
 
-module Sub::Util:ver<0.0.4>:auth<cpan:ELIZABETH> {
+module Sub::Util:ver<0.0.5>:auth<cpan:ELIZABETH> {
 
     our sub subname(&code) is export(:SUPPORTED) {
         if &code.name -> $name {
@@ -69,13 +69,16 @@ sub EXPORT(*@args) {
 
 =head1 NAME
 
-Sub::Util - Port of Perl's Sub::Util 1.49
+Raku port of Perl's Sub::Util module 1.55
 
 =head1 SYNOPSIS
 
     use Sub::Util <subname set_subname>
 
 =head1 DESCRIPTION
+
+This module tries to mimic the behaviour of Perl's C<Sub::Util> module
+as closely as possible in the Raku Programming Language.
 
 C<Sub::Util> contains a selection of subroutines that people have expressed
 would be nice to have in the perl core, but the usage would not really be high
@@ -143,7 +146,7 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
@@ -151,3 +154,5 @@ Re-imagined from the Perl version as part of the CPAN Butterfly Plan. Perl
 version originally developed by Paul Evans.
 
 =end pod
+
+# vim: expandtab shiftwidth=4

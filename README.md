@@ -1,7 +1,7 @@
 NAME
 ====
 
-Sub::Util - Port of Perl's Sub::Util 1.49
+Raku port of Perl's Sub::Util module 1.55
 
 SYNOPSIS
 ========
@@ -10,6 +10,8 @@ SYNOPSIS
 
 DESCRIPTION
 ===========
+
+This module tries to mimic the behaviour of Perl's `Sub::Util` module as closely as possible in the Raku Programming Language.
 
 `Sub::Util` contains a selection of subroutines that people have expressed would be nice to have in the perl core, but the usage would not really be high enough to warrant the use of a keyword, and the size would be so small that being individual extensions would be wasteful.
 
@@ -61,7 +63,7 @@ Source can be located at: https://github.com/lizmat/Sub-Util . Comments and Pull
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

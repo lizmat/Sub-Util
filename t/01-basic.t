@@ -1,4 +1,4 @@
-use v6.c;
+use v6.*;
 use Test;
 use Sub::Util;
 
@@ -27,4 +27,4 @@ for @unsupported -> $function {
     Sub::Util::{'&' ~ $function}();  # should die, if not: not enough tests
 }
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

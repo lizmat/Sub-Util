@@ -1,23 +1,27 @@
 {
-  "auth" : "cpan:ELIZABETH",
-  "authors" : [
+  "auth": "cpan:ELIZABETH",
+  "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "description" : "Port of Perl's Sub::Util 1.49",
-  "license" : "Artistic-2.0",
-  "name" : "Sub::Util",
-  "perl" : "6.c",
-  "provides" : {
-    "Sub::Util" : "lib/Sub/Util.pm6"
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Raku port of Perl's Sub::Util module 1.55",
+  "license": "Artistic-2.0",
+  "name": "Sub::Util",
+  "perl": "6.c",
+  "provides": {
+    "Sub::Util": "lib/Sub/Util.pm6"
   },
-  "resources" : [ ],
-  "source-url" : "https://github.com/lizmat/Sub-Util.git",
-  "tags" : [
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/Sub-Util.git",
+  "tags": [
     "UTILS",
     "CPAN5"
   ],
-  "test-depends" : [ ],
-  "version" : "0.0.4"
+  "test-depends": [
+  ],
+  "version": "0.0.5"
 }
