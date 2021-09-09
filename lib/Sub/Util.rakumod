@@ -1,6 +1,6 @@
 use v6.*;
 
-module Sub::Util:ver<0.0.5>:auth<cpan:ELIZABETH> {
+module Sub::Util:ver<0.0.6>:auth<zef:lizmat> {
 
     our sub subname(&code) is export(:SUPPORTED) {
         if &code.name -> $name {
@@ -139,14 +139,14 @@ L<Sub::Name>
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/Sub-Util . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
